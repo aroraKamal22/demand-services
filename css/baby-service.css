@@ -1,0 +1,256 @@
+.vhp-HA-inspired{
+    position: relative;
+    overflow: hidden;
+}
+a:hover{
+    color: #fff;
+    text-decoration: unset;
+}
+.details-fill{
+    display: none;
+}
+.vhp-HA-condensed{
+    position: absolute;
+    text-align: right;
+    right: 0;
+    z-index: 101;
+    display: flex;
+    flex-direction: row;
+}
+.details-fill{
+    width: 400px;
+}
+
+.header-links{
+    min-width: 100px;
+    color: #fff;
+}
+.btn-log-in{
+    background: transparent;
+    border: 0;
+    color: white;
+    margin-right: 2px;
+}
+.vhp-HA-inspired .vhp-HA-condensed{
+    top: 30px;
+}
+.vhp-HA-inspired .vhp-hero{
+    height: 444px;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 30%);
+}
+.vhp-HA-inspired .vhp-hero .vhp-titles{
+    width: auto;
+}
+.vhp-hero .vhp-titles{
+    height: 285px;
+    margin: auto;
+    z-index: 5;
+    width: auto;
+}
+.vhp-HA-inspired .vhp-hero .vhp-titles .vhp-title{
+    margin-top: 157px;
+    margin-left: 67px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #fff;
+    width: 646px;
+    text-align: left;
+}
+.vhp-HA-inspired .vhp-hero .vhp-titles .secondary-header{
+    margin-top: 40px;
+    margin-left: 67px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120%;
+    color: #fff;
+}
+.vhp-HA-inspired .blue-bg{
+    background: #E6F1F4;
+    height: 174px;
+    transition: height 500ms;
+}
+.vhp-HA-inspired .blue-bg .vertical-selection{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: -45px;
+    z-index: 100;
+    margin: auto;
+}
+.vhp-HA-inspired .blue-bg .vertical-selection.slideIn{
+    transform: translateX(0);
+    transition: 600ms all;
+}
+a{
+    color: #015AC8;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.vertical-name{
+    padding-top: 50px;
+}
+.vhp-HA-inspired .blue-bg .vertical-selection li{
+    list-style: none;
+    width: 187.09px;
+    height: 143px;
+    background: #fff;
+    color: #172C42;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 7px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 10%);
+}
+
+
+.vhp-HA-inspired .press-bar{
+    background: #f3f4f6;
+    padding: 34px 0;
+}
+.vhp-HA-inspired .middle-banners{
+    text-align: center;   
+}
+.vhp-HA-inspired .middle-banners .child-care-options{
+    border: 2px solid #02e4c4;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    background: url(../images/baby-services/vhp/full-time-child-care.png)no-repeat 0 91% ;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    user-select: none;
+}
+.btn{
+    font-size: 18px;
+    min-height: 40px;
+    min-width: 130px;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    line-height: 23px;
+
+}
+.btn-primary-2{
+    color: #fff;
+    background-color: #213f5f;
+    border-color: #213f5f;
+    transform: scale(1);
+    -webkit-font-smoothing:antialiased ;
+}
+.vhp-HA-inspired .middle-banners .middle-box{
+    width: 440px;
+    height: 258px;
+    display: inline-block;
+    margin: 48px 24px;
+    padding: 24px 0 0 24px;
+    color: #172C42;
+    text-align: left;
+}
+.vhp-HA-inspired .middle-banners .middle-box .middle-title{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.vhp-HA-inspired .middle-banners .middle-subtitle{
+    font-weight: 300;
+    font-size: 18px;
+    padding: 8px 0 16px;
+}
+.vhp-HA-inspired .middle-banners .home-pay-options{
+    background: url(../images/baby-services/vhp/homepay-vhp-dark.png) no-repeat;
+    filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.15));
+    color: #fff;
+    border-radius: 8px;
+    background-size: cover;
+}
+.vhp-HA-inspired .middle-banners .home-pay-options .white-btn{
+    background: #fff;
+    color: #172c42;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.btn-secondary-2{
+    border-color: #213f5f;
+    will-change: transform;
+    transform: scale(1);
+    -webkit-font-smoothing:antialiased ;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ccd1d6;
+    box-sizing: content-box;
+    height: 0;
+}
+.hidden{
+    display: none !important;
+}
+
+.vhp-footer .footer{
+    text-align: center;
+}
+.vhp-footer.condensed{
+    border: 0;
+}
+.footer{
+    background-color: #f9f9f9;
+    padding: 0px;
+    border: 0px;
+}
+.vhp-footer.condensed .footer .discover{
+    border: 0px;
+}
+.vhp-footer .footer .discover{
+    color: #667483;
+    margin: auto;
+    text-align: left;
+    width: 950px;
+}
+.vhp-footer .footer .discover.condensed{
+    padding: 39px 0 0 0;
+}
+.vhp-footer .footer .discover:first-child{
+    border-top-width: 0px;
+}
+
+.vhp-footer .footer .discover.condensed h4{
+    line-height: 36px;
+    height: 36px;
+    white-space: nowrap;
+}
+.vhp-footer .footer .discover ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.vhp-footer.condensed .footer .discover ul a{
+    line-height: 26px;
+    font-size: 14px;
+    padding-bottom: 0px;
+    color: #667483;
+    display: block;
+}
+.vhp-footer.condensed .footer .legal{
+    width: 100%;
+    background-color: #eee;
+    margin-top: 50px;
+}

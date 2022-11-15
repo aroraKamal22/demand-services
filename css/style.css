@@ -1,0 +1,683 @@
+header{
+    width: 100%;
+    float: left;
+    transition: .5s;
+    position: relative;
+    z-index: 20;
+    background-color: #fff;
+}
+a{
+    color: #fff;
+}
+header .top{
+    float: right;
+}
+ul{
+    list-style-type: none !important;
+}
+.top ul{
+    float: right;
+    display: block;
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 10px;
+}
+.top img{
+    width: 25px;
+    margin-right: 5px;
+}
+.logo{
+    width: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.navbar-header{
+    float: right;
+    width: 1050px;
+}
+.navbar{
+    float: right;
+    display: block;
+    list-style-type: none;
+    padding-top: 60px;
+}
+.submenu{
+    margin-right: 25px;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.main{
+    background-image: url(../images/handyman-banner.jpg);
+}
+.hire{
+    margin-top: 0px;
+    line-height: 50px;
+    color: #fff;
+}
+.hire span{
+    color: #fabf3c !important;
+}
+.divider{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.divider span{
+    height: 4px;
+    width: 60px;
+    display: inline-block;
+    background-color: #35bfe9;
+}
+.subs{
+    font-size: 20px;
+    color: #fff;
+    line-height: normal;
+}
+.app-ico{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    padding: 22px 0;
+    border-radius: 50%;
+}
+.app-ico img{
+    width: 45px;
+    height: 45px;
+    object-fit: scale-down;
+    margin-left: 22px;
+}
+.wrap-app li h4{
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold';
+    letter-spacing: 0.5px;
+    margin-left: 25px;
+    color: #fff;
+}
+.wrap-app li p{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+.tab-content{
+    margin-bottom:20px;
+}
+.query_form{
+    overflow: hidden;
+    float: none;
+    height: 550px;
+    padding-bottom: 25px;
+    border-radius: unset;
+    width: 100%;
+    max-width: 450px;
+    margin: 15px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.query_form h1{
+    font-size: 30px;
+    margin: 15px 0 3px;
+    text-align: center;
+}
+.query_form p{
+    margin: 0 0 30px;
+    font-size: 21px;
+    color: #6e6e6e;
+    text-align: center;
+    line-height: normal;
+}
+
+.btn.cut-continue{
+    float: left;
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 40px;
+    border: unset;
+    font-size: 19px;
+    background-color: #E92B26;
+    color: #fff;
+    font-family: 'proxima_novaregular';
+    margin-top: 5px;
+}
+#blank{
+    height: 50px;
+    width: 100%;
+}
+#portfolio{
+    padding-bottom: 90px;
+    background-color: #35bfe9;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+
+#portfolio .col-lg-12{
+    width: 100%;
+    margin-top: 17.5%;
+}
+.solution_call{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    display: inherit;
+    text-align: center;
+    max-width: 570px;
+    border: 1px solid #d7d7d7;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 15px;
+}
+.solution_call span{
+    font-size: 25px;
+    display: inline-block;
+    color: #333;
+}
+a.new_lanbtn{
+    background: #E92B26;
+    display: inline-block;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 62px;
+    font-size: 18px;
+    transition: all .6s ease 0s;
+    text-transform: capitalize;
+    line-height: normal;
+    outline: unset;
+    font-family: 'proxima_novasemibold';
+}
+.solution_call .new_lanbtn{
+    margin: 0;
+    float: right;
+}
+#portfolio h3{
+    font-family: 'proxima_novasemibold';
+    font-size: 26px;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    margin: 0;
+}
+#portfolio p{
+    color: #fff;
+    font-size: 19px;
+    line-height:normal;
+    text-align: center;
+}
+.red_divece{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.red_divece span{
+    height: 3px;
+    background-color: #e92b26;
+    margin: 10px 0 20px;
+    display: inline-block;
+    width: 70px;
+}
+.portfolio-carousel-wrap{
+    background: #fefefe;
+    box-shadow: 0px 1px 10px #0f0d342e;
+    padding: 30px 0px;
+    margin-left: 135px;
+    height: 620px;
+    margin-right: 135px;
+}
+.iphone-cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 310px;
+    height: 550px;
+}
+.myslides{
+    display: none;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active{
+    background-color: #e92b26;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+.prof_web{
+    float: left;
+    padding: 80px 0px 40px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.triger_conte{
+    float: left;
+    width: 100%;
+}
+.triger_conte h1{
+    color: #333;
+    margin-top: 0px;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: 'proxima_novabold';
+    line-height: 30px;
+}
+.triger_conte p{
+    color: #6a7071;
+    font-size: 17px;
+    margin: 5px 0 0;
+}
+
+.prof_web .triger_conte h1{
+    line-height: 38px;
+    font-size: 37px;
+}
+.left_divider{
+    width: 100px;
+    height: 1px;
+    background-color: #e92b26;
+}
+.triger_conte .left_divider{
+    height: 3px;
+    margin: 10px 0 20px;
+    display: inline-block;
+    width: 70px;
+}
+.prof_web .triger_conte > p{
+    margin: 0 0 18px;
+    font-size: 19px;
+    color: #6a7071;
+    font-family: 'proxima_novalight';
+}
+.wrap_newicon{
+    float: left;
+    width: 100%;
+    margin: 20px 0 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap_taxi_icon{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 20px;
+}
+.wrap_taxi_icon h1{
+    font-size: 20px !important;
+    text-transform: capitalize;
+    font-family: 'proxima_novasemibold';
+    margin: 15px 0 4px;
+    padding: 0;
+}
+.wrap_taxi_icon p{
+    font-size: 16px;
+    margin: 0 0 18px;
+    color: #6a7071;
+    font-family: 'proxima_novalight';
+}
+ 
+.second{
+    padding-top: 40px;
+}
+.admin_panel{
+    float: left;
+    width: 100%;
+    padding: 50px 0 30px;
+    background-color: #5e9335;
+}
+.greene{
+    background-color: #5e9335;
+}
+
+.wrap_admin_iconpart .wrap_taxi_icon{
+    padding: 30px;
+    background-color: #578a30;
+    min-height: 210px;
+}
+.wrap_admin_iconpart .wrap_taxi_icon h1{
+    margin: 10px 0 10px;
+    color: #fff;
+}
+.wrap_admin_iconpart .wrap_taxi_icon p{
+    color: #fff;
+    margin-bottom: 0px;
+}
+.why_us{
+    float: left;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    position: relative;
+}
+.wrap_why-h{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+.why_ush1{
+    color: #3a3939;
+    font-family: 'proxima_novasemibold';
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.why_ush1 span{
+    color: #e92b26;
+}
+.divider_line{
+    float: none;
+    display: inline-block;
+    width: 70px;
+    background-color: #ff0000;
+    height: 1px;
+    position: relative;
+    top: 0px;
+}
+.wrap_beautyinner{
+    margin-top: 40px;
+}
+.beautywhy_text, .wrap_beautyinner{
+    float: left;
+    width: 100%;
+}
+.beautywhyblock{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 30px;
+    box-shadow: 0 0 5px 0 #c9c9c9;
+    background-color: #fff;
+}
+.img_beflex{
+    padding-left: 50px;
+    position: relative;
+    margin: 0 0 22px;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    display: flex !important;
+    min-height: 40px;
+}
+.img_beflex img{
+    position: absolute;
+    left: 0;
+    width: 40px;
+    top: 0;
+}
+.beautywhyblock h3{
+    margin: 0;
+    display: inline;
+    font-size: 19px;
+    font-family: 'proxima_novasemibold';
+}
+.beautywhyblock p{
+    margin: 10px 0 10px;
+    color: #6a7071;
+    font-size: 16px;
+}
+
+.ios_industries{
+    float: left;
+    width: 100%;
+    padding: 30px 0 10px;
+    background-color: #f6f8fa;
+}
+#industries{
+    background-color: #fff;
+    padding: 40px 0 20px;
+}
+.wrap_why-h.hir-option{
+    position: relative;
+}
+.hir-option .why_ush1 span{
+    color: #E92B26;
+}
+.cus_m{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#industries .col-md-3{
+    padding: 0 8px;
+}
+.ios_inducard{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    position: relative;
+    min-height: 190px;
+    text-align: center;
+    background-color: #fff;
+}
+#industries .ios_inducard{
+    border-radius: unset;
+    min-height: auto;
+    box-shadow: unset;
+    border: 1px solid #e6e6e6;
+    padding: 10px 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.ios_industries.ids_common .ios_inducard{
+    display: flex;
+    overflow: hidden;
+    padding: 15px 16px;
+    align-items: center;
+    min-height: 120px;
+    border-radius: 0 10px 0 10px;
+    position: relative;
+}
+.indus_ico{
+    float: left;
+    width: auto;
+    margin: 0;
+    text-align: center;
+}
+.ios_industries.ids_common .ios_inducard .indus_ico{
+    width: auto;
+    margin: 0;
+}
+.ios_industries.ids_common h3{
+    font-size: 18px;
+    font-family:'proxima_novaregular';
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+#industries .ios_inducard img{
+    width: 40px;
+    height: 40px;
+}
+.ios_industries.ids_common img{
+    width: 50px;
+    height: 50px;
+    object-fit: scale-down;
+}
+#industries .ios_inducard .hot_tag{
+    transform: unset;
+    right: 0;
+    padding: 0 7px 2px;
+    width: auto;
+    top: 0;
+    background-color: #ff7023;
+    height: 18px;
+    line-height: 15px;
+}
+#industries .hot_tag span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.hot_tag{
+    position: absolute;
+    right: -30px;
+    top: 7px;
+    transform: rotate(47deg);
+    background-color: #60923b;
+    width: 100px;
+    padding: 4px;
+    text-align: center;
+}
+.hot_tag span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+}
+.indus_ico img{
+    width: 60px;
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+}
+.want_start{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/landing_page_img/want_ban.png);
+}
+.want_content{
+    float: left;
+    width: 100%;
+    text-align: center;
+    display: table;
+    vertical-align: middle;
+    height: 283px;
+}
+.wrap_wan{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+}
+.wrap_wan h1{
+    font-family: 'proxima_novalight';
+    font-size: 36px;
+    margin: 20px 0 0;
+}
+.wrap_wan b{
+    color: #E92B26;
+    font-family: 'proxima_novasemibold';
+}
+.award_images{
+    float: none;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.award_img{
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+}
+.award_img img{
+    width: 100%;
+    object-fit: scale-down;
+    height: 180px;
+}
+.dev_ompany{
+    margin-top: 19px;
+    padding: 0 !important;
+    width: 100%;
+}
+.dev_innr_comp, .dev_ompany{
+    background: #f6f8fa;
+    float: left;
+}
+.top-margin-none{
+    margin-top: 0 !important;
+}
+.headib_last{
+    float: left;
+    width: 100%;
+    margin: 10px 0 20px;
+}
+.border_cos, .border_cust, .border_her{
+    height: 1px;
+    background-color: red;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.border_cos{
+    width: 87px;
+}
+.headib_last h1{
+    color: #3a3939;
+    font-family: 'proxima_novasemibold';
+    font-size: 28px;
+    line-height: 40px;
+    margin: 10px 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.dev_innr_comp{
+    text-align: center;
+    width: 100%;
+}
+
+.animateit{
+  position: relative;
+  color:black;
+}
+
+.animateit:before {
+    width: 70%;
+    height: 3px;
+    transform: scaleX(0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.animateit:hover:before {
+    transform: scaleX(1);
+    visibility: visible;
+}
